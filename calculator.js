@@ -42,7 +42,7 @@ var bil2 = 100;
 var jumlah = 'Jumlah ' + bil1 + ' dengan ' + bil2 +' adalah ' + calculator.tambah(bil1, bil2);
 var hasilKurang = 'Hasil pengurangan ' + bil1 + ' dengan ' + bil2 +' adalah ' + calculator.kurang(bil1, bil2);
 var hasilKali = 'Hasil perkalian ' + bil1 + ' dengan ' + bil2 +' adalah ' + calculator.kali(bil1, bil2);
-var hasilBagi = 'Hasil perkalian ' + bil1 + ' dengan ' + bil2 +' adalah ' + calculator.bagi(bil1, bil2);
+var hasilBagi = 'Hasil pembagian ' + bil1 + ' dengan ' + bil2 +' adalah ' + calculator.bagi(bil1, bil2);
 var samaDengan = calculator.samadengan(bil1, bil2);
 
 console.log(jumlah);
