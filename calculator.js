@@ -35,9 +35,14 @@ var calculator = {
 
 }
 
+var bil1 = 89;
+var bil2 = 100;
 
 
-console.log(calculator.tambah(8,9));
+var jumlah = 'Jumlah ' + bil1 + ' dengan ' + bil2 +' adalah ' + calculator.tambah(bil1, bil2);
+
+
+console.log(jumlah);
 console.log(calculator.kurang(8,9));
 console.log(calculator.kali(8,9));
 console.log(calculator.bagi(8,9));
