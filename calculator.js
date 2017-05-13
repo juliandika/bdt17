@@ -1,5 +1,5 @@
 var calculator = {
-	
+
 	tambah : function(a,b) {
 
 		return a + b;
@@ -40,10 +40,13 @@ var bil2 = 100;
 
 
 var jumlah = 'Jumlah ' + bil1 + ' dengan ' + bil2 +' adalah ' + calculator.tambah(bil1, bil2);
-
+var hasilKurang = 'Hasil pengurangan ' + bil1 + ' dengan ' + bil2 +' adalah ' + calculator.kurang(bil1, bil2);
+var hasilKali = 'Hasil perkalian ' + bil1 + ' dengan ' + bil2 +' adalah ' + calculator.kali(bil1, bil2);
+var hasilBagi = 'Hasil perkalian ' + bil1 + ' dengan ' + bil2 +' adalah ' + calculator.bagi(bil1, bil2);
+var samaDengan = calculator.samadengan(bil1, bil2);
 
 console.log(jumlah);
-console.log(calculator.kurang(8,9));
-console.log(calculator.kali(8,9));
-console.log(calculator.bagi(8,9));
-console.log(calculator.samadengan(8,9));
+console.log(hasilKurang);
+console.log(hasilKali);
+console.log(hasilBagi);
+console.log(samaDengan);
