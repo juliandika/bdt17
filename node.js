@@ -23,6 +23,7 @@ var dogs = {
 console.log(dogs.bark());
 console.log(dogs.dogCount());
 
-
+var person = new people('john');
+console.log(person);
 
 
